@@ -1,0 +1,75 @@
+@import url('https://use.fontawesome.com/releases/v5.0.7/css/all.css');
+
+.flex {
+    display: flex;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(56, 49, 49);
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+i {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cart {
+    padding: 20px;
+    text-align: right;
+}
+
+.cart i, .arrow i{
+    font-size: 30px;
+    color:white;
+}
+
+.products-administration {
+    background-color: rgb(240, 230, 230);
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products-list {
+    background-color: rgb(90, 79, 79);
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+
+p {
+    color: white;
+    font-size: 20px;
+    border:2px solid gray;
+    padding: 15px;
+    position:relative;
+}
+
+
+p::after { 
+    content: "\f146 \2000 \2000 \f0fe";  
+    font-family: 'Font Awesome\ 5 Free';
+    font-size: 40px;
+    margin-left:10px;
+    font-weight: 900;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+}

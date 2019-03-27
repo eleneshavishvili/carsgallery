@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poor+Story|Spicy+Rice"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/registration.css"
+    />
+  </head>
+  <body>
+    <container class="container flex main">
+      <div class="registration_container flex">
+        <form
+          action="index.html"
+          method="POST"
+          name="form"
+          onsubmit="valid()"
+          id="registrationForm"
+          class="registration flex"
+        >
+          <div class="title">
+            <h1>registration form</h1>
+          </div>
+          <div class="social flex">
+            <ul>
+              <li>
+                <button id="signinWithFacebook" type="button">
+                  <a href="https://www.facebook.com/" target="_blank"
+                    >Log in with Facebook</a
+                  >
+                </button>
+              </li>
+              <li>
+                <button id="signinWithGoogle" type="button">
+                  <a href="https://twitter.com/" target="_blank"
+                    >Log in with twitter</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="input flex">
+            <input
+              type="mail"
+              id="email"
+              class="email"
+              placeholder="your email"
+            />
+          </div>
+
+          <div class="input flex">
+            <input
+              type="password"
+              id="password"
+              class="password"
+              placeholder="password"
+            />
+          </div>
+          <div class="input flex">
+            <input
+              type="password"
+              id="rePassword"
+              class="password"
+              placeholder="repeat your password"
+            />
+          </div>
+          <div class="login_password">
+            <a class="login" href="index.html">are you registered ?</a>
+          </div>
+          <div>
+            <input
+              type="submit"
+              id="submit"
+              name="submit"
+              value="REGISTRATION"
+            />
+          </div>
+        </form>
+      </div>
+    </container>
+
+    <script src="main.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>

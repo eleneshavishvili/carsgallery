@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.main { 
+    justify-items: center;  
+}
+
+.registration_container {
+    max-width: 980px;
+    margin: 50px auto;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    border: 2px solid rgb(76, 76, 109);  
+    padding: 10px;
+}
+
+.registration {
+    flex:1;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(98, 87, 109);
+    text-transform: uppercase;
+}
+
+.input {
+    flex-direction: column; 
+}
+
+.email, .password {
+    margin: 20px 0px;
+    height: 50px; 
+    width:300px;
+    max-width: 300px;
+    padding: 10px; 
+}
+
+.social {
+    padding: 10px 0px;
+}
+
+#submit, #signinWithFacebook, #signinWithGoogle {
+    background-color: rgb(107, 97, 117);
+    color: white;
+    height: 50px;
+    width:300px;
+    max-width: 300px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; 
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(222, 214, 230);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+    .registration_container {
+        margin: 30px auto;
+        height: 100%;
+        align-items: center;
+        flex-flow: column nowrap;
+    }
+
+    .btn {
+        margin: 20px 0;
+    }
+    
+}
+    
