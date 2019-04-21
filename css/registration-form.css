@@ -1,0 +1,70 @@
+body {
+  background-image: url(../images/big4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.904);
+  padding: 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.box h1 {
+  text-transform: uppercase;
+  color: rgb(240, 145, 145);
+  font-weight: bold;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.box input {
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #999;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.box label {
+  color: rgb(223, 49, 92);
+}
+
+input[type="submit"] {
+  border-bottom: none;
+  background-color: rgb(240, 145, 169);
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.box form div {
+  position: relative;
+}
+
+.box form div label {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.box input:focus ~ label,
+.box input:valid ~ label {
+  top: -15px;
+  left: 0px;
+}
