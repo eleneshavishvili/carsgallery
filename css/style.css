@@ -73,7 +73,7 @@ body {
 
 
 .header{
-    background: url("../images/car.jpg") no-repeat center;
+    background: url("../images/Car.jpg") no-repeat center;
     background-size: cover;
     min-height: 100vh;
     color: #ffffff;
