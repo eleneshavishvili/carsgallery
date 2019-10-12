@@ -72,6 +72,13 @@ body {
 }
 
 
+.offset:before {
+    height: 350px;
+    margin-top: -280px;
+    content: "";
+    display: block;
+}
+
 .header{
     background: url("../images/Car.jpg") no-repeat center;
     background-size: cover;
